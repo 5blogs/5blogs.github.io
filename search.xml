@@ -3,11 +3,10 @@
   <entry>
     <title>适用于via浏览器的Adguard广告过滤规则</title>
     <url>/2022/01/01/Adguard-filters-for-via/</url>
-    <content><![CDATA[<p>via浏览器是安卓平台小巧而功能强大的浏览器，<br>支持Adblock plus的广告过滤器来屏蔽广告。</p>
-<p>这里就给朋友们分享几个过滤效果不错的Adguard官方预设的广告过滤器:</p>
+    <content><![CDATA[<p>via 浏览器是安卓平台小巧而功能强大的浏览器，<br>
+支持 Adblock plus 的广告过滤器来屏蔽广告。</p>
+<p>这里就给朋友们分享几个过滤效果不错的 Adguard 官方预设的广告过滤器:</p>
 <span id="more"></span>
-
-
 ]]></content>
       <categories>
         <category>Android</category>
@@ -22,15 +21,16 @@
     <title>Window11系统安装之微软官方安装助手</title>
     <url>/2022/01/25/Microsoft-Windows11-Update/</url>
     <content><![CDATA[<p>准备工作:</p>
-<p>1、确保系统盘有9G以上的可用空间</p>
+<p>1、确保系统盘有 9G 以上的可用空间</p>
 <p>2、电脑网络连接通畅，笔记本电池电量足够。</p>
-<p><a href="https://www.microsoft.com/ZH-CN/software-download/windows11">点击进入</a> 安装助手下载页面</p>
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cubWljcm9zb2Z0LmNvbS9aSC1DTi9zb2Z0d2FyZS1kb3dubG9hZC93aW5kb3dzMTE=">点击进入</span> 安装助手下载页面</p>
  <span id="more"></span>
-
-<p><img src="https://cdn.jsdelivr.net/gh/xcsblog/photos@master/AD905781-E1BD-410E-BB46-DA012C0CED1B.4ueh3iwf9im8.jpg" alt="AD905781-E1BD-410E-BB46-DA012C0CED1B"></p>
-<p>如果您动手能力强需要重装系统，可以下载下面<br>的media creation tool或者刻录iso从u盘<br>启动重装系统。这里只推荐您用安装助手。</p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/xcsblog/photos@master/AD905781-E1BD-410E-BB46-DA012C0CED1B.4ueh3iwf9im8.jpg" alt="AD905781-E1BD-410E-BB46-DA012C0CED1B"></p>
+<p>如果您动手能力强需要重装系统，可以下载下面<br>
+的 media creation tool 或者刻录 iso 从 u 盘<br>
+启动重装系统。这里只推荐您用安装助手。</p>
 <p>下载完毕右键管理员身份运行，接受条款并安装</p>
-<p><img src="https://cdn.jsdelivr.net/gh/xcsblog/photos@master/2633D02D-48C0-46B4-B201-D66FCCAC945B.d100aqu76vc.jpg" alt="2633D02D-48C0-46B4-B201-D66FCCAC945B"></p>
+<p><img data-src="https://cdn.jsdelivr.net/gh/xcsblog/photos@master/2633D02D-48C0-46B4-B201-D66FCCAC945B.d100aqu76vc.jpg" alt="2633D02D-48C0-46B4-B201-D66FCCAC945B"></p>
 ]]></content>
       <categories>
         <category>Windows</category>
@@ -44,17 +44,16 @@
   <entry>
     <title>怎样安全的设置你的VPS</title>
     <url>/2021/12/31/secure-ssh-VPS/</url>
-    <content><![CDATA[<p>服务商预装的系统可能预装了用户行为日志记录程序,<br>而且服务商并没有自定义iso系统安装的功能,<br>这时我们就可以dd重装系统。</p>
+    <content><![CDATA[<p>服务商预装的系统可能预装了用户行为日志记录程序，<br>
+ 而且服务商并没有自定义 iso 系统安装的功能，<br>
+ 这时我们就可以 dd 重装系统。</p>
 <p>首先 更新系统</p>
 <span id="more"></span>
-
 <p>apt update &amp;&amp; apt upgrade -y</p>
 <p>安装依赖</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">apt install wget xz-utils openssl gawk file</span><br></pre></td></tr></table></figure>
-
 <p>下载脚本赋予脚本执行权限</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">wget https://cdn.jsdelivr.net/gh/isora0/script@master/DebianNET.sh</span><br><span class="line">chmod a+x DebianNET.sh</span><br></pre></td></tr></table></figure>
-
 ]]></content>
       <categories>
         <category>Linux</category>
